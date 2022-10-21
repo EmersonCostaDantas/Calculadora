@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|PT++Mono");
+:root{
+    --primary-color:#699ce9;
+    --secondary-color:#696969;
+    --tertiary-color:#f0b0b0;
+}
+
+body{
+    justify-content: center;
+    background-color:var(--primary-color);
+    font-size:15px;
+    font-family: 'Lato';
+
+}
+#container{
+    height:525px;
+    width:360px;
+    margin:50px auto;
+    background:#f7f7f7;
+    box-shadow: 5px 5px 5px var(--tertiary-color);
+    border-radius: 30px;
+}
+.title{
+    background:var(--tertiary-color);
+    padding:20px;
+    text-transform: uppercase;
+    font-size:18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+}
+.tipsform{
+    padding-left:20px;
+    padding-right:20px;
+    
+}
+.forminput{
+    background:#ffffff;
+    width:100px;
+    padding: 5px 5px 8px 8px;
+}
+.forminput:focus{
+    border:3px solid var(--secondary-color);
+}
+.formselect{
+    background:#f0b0b0;
+    width:180px;
+    padding:6px;
+    font-size:15px;
+}
+.formsubmit{
+    text-transform: uppercase;
+    font-weight:bolder;
+    display: block;
+    margin:auto ;
+    background-color: black;
+    color:white;
+    border-radius:115px;
+    padding: 1em 2em 1em 2em; 
+    width:200px;
+    height:56px;
+    font-size:15px;
+    cursor:pointer;
+}
+#totaltip{
+    border-radius: 12px;
+    width:140px; 
+    padding-top: 12px;   
+    margin:0 auto;
+    text-align:center
+}
